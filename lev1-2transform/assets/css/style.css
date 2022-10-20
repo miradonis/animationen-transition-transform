@@ -1,0 +1,47 @@
+
+article {
+    display: flex;
+    margin-left: 35vw;
+}
+
+article:nth-of-type(1) {
+    margin-top: 20vh;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 143, 0);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    transition: transform 1s linear;
+}
+
+.translate:hover {
+    transform: translate(20px, 20px);
+}
+
+.translateX:hover {
+    transform: translateX(-20px);
+}
+
+.translateY:hover {
+    transform: translateY(20px);
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.scale:hover {
+    transform: scaleY(1.5);
+}
+
+.skew:hover {
+    transform: skew(20deg, 18deg);
+}

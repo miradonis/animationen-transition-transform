@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    height: 300px;
+    width: 100px;
+    margin-top: 20vh;
+    background-color: antiquewhite;
+}
+
+.box1 {
+    animation-name: first-box;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+
+.box2 {
+    animation-name: second-box;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+.box3 {
+    animation-name: third-box;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+.box4 {
+    animation-name: fourth-box;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+}
+
+.box5 {
+    animation-name: fifth-box;
+    animation-duration: 125ms;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes first-box {
+    
+    0%, 100%{
+        background-color: white;
+    }  
+
+    50%{
+        background-color: black;
+    }
+}
+
+@keyframes second-box {
+
+    0%,
+    100% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+}
+
+@keyframes third-box {
+
+    0%,
+    100% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+}
+
+@keyframes fourth-box {
+
+    0%,
+    100% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+}
+
+@keyframes fifth-box {
+
+    0%,
+    100% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: black;
+    }
+}

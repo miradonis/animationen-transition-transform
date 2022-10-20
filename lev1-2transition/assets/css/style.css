@@ -1,0 +1,39 @@
+.box {
+    width: 1000px;
+    height: 250px;
+    background-color: gray;
+    position: relative;
+    border: 2px solid black;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.div1 {
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    transition-property: left;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+}
+
+.div2 {
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    transition-property: left;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+.box:hover div {
+    left: 85%
+}
+

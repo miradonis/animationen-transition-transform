@@ -1,0 +1,15 @@
+
+.move {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 10px;
+    margin: 10vh 10vw;
+    transition: transform 1s linear;
+    transform-origin: left bottom;
+}
+
+.move:hover {
+    transform: rotateZ(90deg) scale(1.5);
+}
+

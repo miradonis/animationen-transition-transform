@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+body article {
+    width: 400px;
+    margin: 30vh auto 0 auto;
+}
+
+body article:hover {
+    animation-name: shadow__border;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+}
+
+body article img {
+    width: 400px;
+    height: auto;
+}
+
+@keyframes shadow__border {
+    
+    0%, 100% {
+        box-shadow: -3px -3px 40px 5px rgb(28, 28, 98), 10px 10px 40px 5px rgb(1, 75, 45);
+    }
+
+    25% {
+        box-shadow: -2px -2px 40px 15px rgb(57, 52, 39), 2px 2px 40px 15px rgb(57, 52, 39);
+    }
+
+    50% {
+        box-shadow: -3px -3px 40px 5px rgb(1, 75, 45), 10px 10px 40px 5px rgb(28, 28, 98) ;
+    }
+
+    75% {
+        box-shadow: -3px -3px 40px 10px rgb(57, 52, 39), 10px 10px 40px 10px rgb(57, 52, 39);
+    }
+}
